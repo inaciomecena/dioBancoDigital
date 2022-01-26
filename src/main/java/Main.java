@@ -16,6 +16,9 @@ public class Main {
 		cc.credito(200);
 		System.out.println(cc);
 
+		poupanca.credito(200);
+		System.out.println(cc);
+
 
 		cc.depositar(250);
 		cc.transferir(100, poupanca);

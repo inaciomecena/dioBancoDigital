@@ -10,4 +10,11 @@ public class ContaPoupanca extends Conta {
 		System.out.println("=== Extrato Conta Poupança ===");
 		super.imprimirInfosComuns();
 	}
+
+	public String toString() {
+		return 	"=== Credito Realizado em Conta Poupanca ===\n"+
+				"Conta Poupanca:\nNumero: " + Integer.toString(this.agencia) +
+				"\nConta: " + Integer.toString(this.numero) +
+				"\nSaldo: " + Double.toString(this.saldo) + "\n-------------\n";
+	}
 }
